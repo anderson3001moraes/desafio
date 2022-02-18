@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* interface */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #87CEEB;
+}
+
+div#app {
+    margin: 30px auto;
+    padding: 30px;
+    width: 625px;
+    border: 3px solid black;
+    background-color: rgb(219, 185, 134);
+
+}
+
+input ,div.display {
+    display: inline-block;
+    border: 5px solid black;
+    background-color: rgb(58, 58, 58);
+    height: 70px;
+    width: 550px;
+}
+
+input  {
+    background-color: rgb(109, 108, 108);
+}
+
+label, p.estilo_paragrafo {
+    display: block;
+    margin: 15px 20px 10px 20px;
+}
+
+span.sem_valor {
+    display: none;
+} 
+
+
+/* texto */
+
+h1.titulo {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px black;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 38px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+label, p.estilo_paragrafo {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', sans-serif;
+    text-shadow: 4px 4px 4px black;
+    color: white;
+    letter-spacing: 5px;
+}
+
+span.forca_hiperForte {
+    color: #00FA9A; 
+    font-size: 30px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-left: 150px;
+    line-height: 65px;
+    letter-spacing: 5px;
+}
+
+span.forca_forte {
+    color: #00fae1; 
+    font-size: 30px; 
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-left: 200px;
+    line-height: 65px;
+    letter-spacing: 5px;
+    
+}
+
+span.forca_media {
+    color: #f6fa00; 
+    font-size: 30px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-left: 200px;
+    line-height: 65px;
+    letter-spacing: 5px;
+}
+
+span.forca_fraca {
+    color: #ff2f00; 
+    font-size: 30px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 200px;
+    line-height: 65px;
+    letter-spacing: 5px;
+}
+
+p#caractere, input {
+    text-align: center;
+}
+
+input, span.caractere {
+    color: white;
+    font-size: 25px; 
+    text-transform: uppercase;
+    line-height: 55px;
+}
